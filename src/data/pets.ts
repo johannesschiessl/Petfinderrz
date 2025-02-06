@@ -6,7 +6,7 @@ export const pets: Pet[] = [
     name: "Flauschi",
     race: "Perserkatze",
     category: "Katze",
-    images: ["/placeholder.svg?height=300&width=300"],
+    images: ["https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2F0fGVufDB8fDB8fHww"],
     location: {
       distance: 12.5,
       city: "Augsburg",
