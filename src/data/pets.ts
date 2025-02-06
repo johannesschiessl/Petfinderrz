@@ -54,7 +54,7 @@ export const pets: Pet[] = [
     name: "Luna",
     race: "Maine Coon",
     category: "Katze",
-    images: ["/placeholder.svg?height=300&width=300"],
+    images: ["https://images.unsplash.com/photo-1611236628716-ae1a7e98591b?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fE1haW5lJTIwQ29vbnxlbnwwfHwwfHx8MA%3D%3D"],
     location: {
       distance: 10.4,
       city: "Freising",
