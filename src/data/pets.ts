@@ -78,7 +78,7 @@ export const pets: Pet[] = [
     name: "Kiki",
     race: "Wellensittich",
     category: "Vogel",
-    images: ["/placeholder.svg?height=300&width=300"],
+    images: ["https://images.unsplash.com/photo-1594911588637-c9e891bd7858?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YnVkZ2llfGVufDB8fDB8fHww"],
     location: {
       distance: 40.7,
       city: "Passau",
