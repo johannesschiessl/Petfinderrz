@@ -66,7 +66,7 @@ export const pets: Pet[] = [
     name: "Hopsi",
     race: "Zwergkaninchen",
     category: "Kleintier",
-    images: ["/placeholder.svg?height=300&width=300"],
+    images: ["https://images.unsplash.com/photo-1585110396000-c9ffd4e4b308?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YnVubnl8ZW58MHx8MHx8fDA%3D"],
     location: {
       distance: 25.6,
       city: "Rosenheim",
