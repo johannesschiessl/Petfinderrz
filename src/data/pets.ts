@@ -102,7 +102,7 @@ export const pets: Pet[] = [
     name: "Moppel",
     race: "Meerschweinchen",
     category: "Kleintier",
-    images: ["/placeholder.svg?height=300&width=300"],
+    images: ["https://images.unsplash.com/photo-1533152162573-93ad94eb20f6?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Z3VpbmVhJTIwcGlnfGVufDB8fDB8fHww"],
     location: {
       distance: 30.3,
       city: "Bayreuth",
