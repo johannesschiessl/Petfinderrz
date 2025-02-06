@@ -114,7 +114,7 @@ export const pets: Pet[] = [
     name: "Rocky",
     race: "Border Collie",
     category: "Hund",
-    images: ["/placeholder.svg?height=300&width=300"],
+    images: ["https://images.unsplash.com/photo-1503256207526-0d5d80fa2f47?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Qm9yZGVyJTIwQ29sbGllfGVufDB8fDB8fHww"],
     location: {
       distance: 45.9,
       city: "Würzburg",
