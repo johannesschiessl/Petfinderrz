@@ -90,7 +90,7 @@ export const pets: Pet[] = [
     name: "Strolchi",
     race: "Dackel",
     category: "Hund",
-    images: ["/placeholder.svg?height=300&width=300"],
+    images: ["https://images.unsplash.com/photo-1618265341355-d0e2d1fdf26b?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGFjaHNodW5kfGVufDB8fDB8fHww"],
     location: {
       distance: 18.2,
       city: "Landsberg am Lech",
