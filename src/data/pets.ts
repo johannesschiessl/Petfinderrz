@@ -30,7 +30,7 @@ export const pets: Pet[] = [
     name: "Schnurri",
     race: "Siamkatze",
     category: "Katze",
-    images: ["/placeholder.svg?height=300&width=300"],
+    images: ["https://images.unsplash.com/photo-1568152950566-c1bf43f4ab28?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2lhbWVzZSUyMGNhdHxlbnwwfHwwfHx8MA%3D%3D"],
     location: {
       distance: 35.8,
       city: "Regensburg",
