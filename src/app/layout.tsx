@@ -5,7 +5,11 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Petfinderrz",
-  description: "Petfinderrz, finde dein neues Haustier!",
+  description: "Find. Your. Pet.",
+  appleWebApp: {
+    title: "Petfinderrz",
+  },
+  manifest: "/manifest.json",
 };
 
 export default function RootLayout({
