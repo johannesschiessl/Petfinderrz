@@ -29,7 +29,7 @@ export function SavedPetsDrawer({
         isOpen={isOpen}
         onClose={onClose}
         title="Saved Pets"
-        description="Your favorite furry friends are waiting for you!"
+        description="Your favorite pet friends are waiting for you!"
       >
         <ScrollArea className="h-[60vh] px-6">
           {savedPets.map((pet) => (
