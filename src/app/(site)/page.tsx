@@ -18,7 +18,7 @@ export default function LandingPage() {
             einem Wisch.
           </p>
           <a
-            href="#"
+            href="/pets"
             className="bg-green-600 text-white py-3 px-6 rounded-full hover:bg-green-700"
           >
             Loslegen
