@@ -83,7 +83,7 @@ export function SavedPetsDrawer({
                 No saved pets yet
               </h3>
               <p className="text-neutral-500 max-w-sm">
-                Start swiping to find your perfect furry friend!
+                Start swiping to find your perfect pet friend!
               </p>
             </div>
           )}
