@@ -7,9 +7,9 @@ export default function SiteLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <div>
+    <div className="overflow-x-hidden min-h-screen flex flex-col">
       <Header />
-      {children}
+      <div className="flex-grow">{children}</div>
       <Footer />
     </div>
   );
