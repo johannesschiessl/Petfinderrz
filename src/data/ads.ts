@@ -10,16 +10,18 @@ export const ads: Ad[] = [
   {
     id: "1",
     title: "Memorics",
-    description: "Instantly turn notes into flashcards with AI",
-    image: "/placeholder.svg?height=600&width=400",
+    description:
+      "Tired of spending hours making flashcards? Just snap a photo of your study material, let the AI turn it into cards, and start learning.",
+    image: "/memorics.png",
 
     link: "https://memorics.ignotum.dev/landing",
   },
   {
     id: "2",
-    title: "Studentapp",
-    description: "An app for students to keep track of their school life.",
-    image: "/placeholder.svg?height=600&width=400",
-    link: "https://studentapp.ignotum.dev/landing",
+    title: "FreezeIt",
+    description:
+      "Ein Wassereis das in Sekundenschnelle gefroren ist. Lust auf eine süße Abkühlung? Unsere coolen Wassereishüllen bringen dir den perfekten Sommer-Moment – egal ob am Strand, im Park oder auf dem Balkon!",
+    image: "/freezeit.png",
+    link: "https://www.instagram.com/p/DG3sRUfNNNQ/",
   },
 ];

@@ -141,22 +141,158 @@ export const pets: Pet[] = [
     },
     price: 48,
   },
-  ...Array.from({ length: 40 }, (_, i) => ({
-    id: (11 + i).toString(),
-    name: `Pet-${11 + i}`,
-    race: ["Labrador", "Bengal Cat", "Cockatiel", "Hamster", "Schnauzer"][
-      Math.floor(Math.random() * 5)
+  {
+    id: "11",
+    name: "Waldi",
+    race: "Labrador",
+    category: "Hund",
+    images: [
+      "https://images.unsplash.com/photo-1529831129093-0fa4866281ee?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     ],
-    category: ["Hund", "Katze", "Vogel", "Kleintier"][
-      Math.floor(Math.random() * 4)
-    ],
-    images: ["/placeholder.svg?height=300&width=300"],
     location: {
-      distance: parseFloat((Math.random() * 50).toFixed(1)),
-      city: ["Bamberg", "Erlangen", "Straubing", "Kempten", "Weiden"][
-        Math.floor(Math.random() * 5)
-      ],
+      distance: 8.7,
+      city: "München",
     },
-    price: Math.floor(Math.random() * 31) + 20,
-  })),
+    price: 42,
+  },
+  {
+    id: "12",
+    name: "Felix",
+    race: "Europäisch Kurzhaar",
+    category: "Katze",
+    images: [
+      "https://images.unsplash.com/photo-1663872312444-17113ddd65da?q=80&w=1994&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    ],
+    location: {
+      distance: 15.3,
+      city: "Dachau",
+    },
+    price: 28,
+  },
+  {
+    id: "13",
+    name: "Hoppel",
+    race: "Angora Kaninchen",
+    category: "Kleintier",
+    images: [
+      "https://images.unsplash.com/photo-1615238049310-d6aaa6337956?q=80&w=1968&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    ],
+    location: {
+      distance: 22.1,
+      city: "Starnberg",
+    },
+    price: 18,
+  },
+  {
+    id: "14",
+    name: "Krümel",
+    race: "Hamster",
+    category: "Kleintier",
+    images: [
+      "https://images.unsplash.com/photo-1425082661705-1834bfd09dca?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    ],
+    location: {
+      distance: 5.4,
+      city: "Erding",
+    },
+    price: 15,
+  },
+  {
+    id: "15",
+    name: "Pieps",
+    race: "Nymphensittich",
+    category: "Vogel",
+    images: [
+      "https://images.unsplash.com/photo-1696500963978-0217c1df9e38?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    ],
+    location: {
+      distance: 19.8,
+      city: "Landshut",
+    },
+    price: 24,
+  },
+  {
+    id: "16",
+    name: "Bruno",
+    race: "Mops",
+    category: "Hund",
+    images: [
+      "https://images.unsplash.com/photo-1548461159-1d6e2b9dc87e?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    ],
+    location: {
+      distance: 31.2,
+      city: "Ulm",
+    },
+    price: 55,
+  },
+  {
+    id: "17",
+    name: "Schnecki",
+    race: "Schildkröte",
+    category: "Reptil",
+    images: [
+      "https://images.unsplash.com/photo-1730878569964-8021eb61d19f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    ],
+    location: {
+      distance: 14.6,
+      city: "Fürstenfeldbruck",
+    },
+    price: 35,
+  },
+  {
+    id: "18",
+    name: "Miez",
+    race: "Europäische Kurzhaar",
+    category: "Katze",
+    images: [
+      "https://images.unsplash.com/photo-1663186926134-500e36909722?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    ],
+    location: {
+      distance: 27.9,
+      city: "Kempten",
+    },
+    price: 10,
+  },
+  {
+    id: "19",
+    name: "Lotte",
+    race: "Jack Russell Terrier",
+    category: "Hund",
+    images: [
+      "https://images.unsplash.com/photo-1602139299155-431bac10fea7?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    ],
+    location: {
+      distance: 7.2,
+      city: "Germering",
+    },
+    price: 45,
+  },
+  {
+    id: "20",
+    name: "Mo",
+    race: "Britisch Kurzhaar",
+    category: "Katze",
+    images: [
+      "https://images.unsplash.com/photo-1657284582941-d61242cad6f8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    ],
+    location: {
+      distance: 16.8,
+      city: "Freising",
+    },
+    price: 40,
+  },
+  {
+    id: "21",
+    name: "Max",
+    race: "Labrador Retriever",
+    category: "Hund",
+    images: [
+      "https://images.unsplash.com/photo-1537204696486-967f1b7198c8?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    ],
+    location: {
+      distance: 23.5,
+      city: "Memmingen",
+    },
+    price: 30,
+  },
 ];
